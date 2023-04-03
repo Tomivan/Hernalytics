@@ -1,10 +1,13 @@
 import React from "react";
-import OnboardingOne from "../components/onboarding-1/onboarding-1.component";
+import SignupForm from "../components/signup-form/signup-form.component";
+import SignupOne from "../components/signup/signup.component";
+
 
 const Signup = () => {
     return(
-        <div className="">
-            <OnboardingOne />
+        <div className="signup">
+            <SignupOne />
+            <SignupForm />
         </div>
     )
 }

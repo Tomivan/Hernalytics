@@ -1,14 +1,15 @@
 import React from "react";
 import Hernalytics from "../components/hernalytics/hernalytics.component";
-import LoginForm from "../components/login-form/login-form.component";
+import ResetPasswordEmail from "../components/reset-password/reset-password.component";
 
-const Login = () => {
+
+const ResetEmail = () => {
     return(
         <div className="pages">
             <Hernalytics />
-            <LoginForm />
+            <ResetPasswordEmail />
         </div>
     )
 }
 
-export default Login;
+export default ResetEmail;
