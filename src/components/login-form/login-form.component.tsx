@@ -15,12 +15,12 @@ const LoginForm = () => {
                 <img src={Facebook} alt=""  className="social"/>
                 <img src={Apple} alt=""  className="social"/>
             </div>
-            <form className="login-form">
+            <form className="form">
                 <label>Email Address *</label>
                 <input type="text" placeholder="Email address" />
                 <label>Password *</label>
                 <input type="text" placeholder="Enter Password" />
-                <Link to="/forgot-password" className="forgot-link">Forgot password</Link>
+                <Link to="/forgot-password" className="forgot-link">Forgot password?</Link>
                 <button className="create-account">LOG IN</button>
                 <p>Don’t have an account?<Link to="/sign-up" className="login-link">Sign Up</Link></p>
             </form>

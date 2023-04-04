@@ -7,11 +7,11 @@ const ResetPasswordPhonenumber = () => {
         <div className="reset-password">
             <h1>Reset Password</h1>
             <p>Enter the phone number associated with your account to reset your password</p>
-            <form className="reset-password">
-                <label>Phone Number</label>
+            <form className="reset-password-form">
+                <label>Phone Number *</label>
                 <input type="phone" placeholder="Email Address" />
                 <button className="create-account">RESET PASSWORD</button>
-                <Link to="/reset-password-email">Use Another Method</Link>
+                <Link to="/reset-password-email" className="method">Use Another Method</Link>
             </form>
         </div>
     )

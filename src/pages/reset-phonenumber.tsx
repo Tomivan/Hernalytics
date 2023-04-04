@@ -4,7 +4,7 @@ import ResetPasswordPhonenumber from "../components/reset-phonenumber/reset-phon
 
 const ResetPhonenumber = () => {
     return(
-        <div className="">
+        <div className="pages">
             <Hernalytics />
             <ResetPasswordPhonenumber />
         </div>

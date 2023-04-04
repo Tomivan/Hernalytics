@@ -1,0 +1,32 @@
+.login-form{
+    margin: 7% 0 0 5%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.social{
+    margin-right: 6%;
+}
+label{
+    margin-bottom: 2%;
+}
+input{
+    height: 5vh;
+    width: 45vw;
+    margin-bottom: 3%;
+    border-radius: 8px;
+    border: 1px solid #a9acac;
+}
+input::placeholder{
+    padding-left: 1em;
+    color: #a9acac;
+}
+.forgot-link{
+    text-align: right;
+    margin: -2% 0 5% 0;
+}
+.form p{
+    text-align: center;
+}

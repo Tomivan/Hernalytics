@@ -5,7 +5,7 @@ import SignupOne from "../components/signup/signup.component";
 
 const Signup = () => {
     return(
-        <div className="signup">
+        <div className="pages">
             <SignupOne />
             <SignupForm />
         </div>

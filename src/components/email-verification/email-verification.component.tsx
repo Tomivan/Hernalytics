@@ -10,7 +10,7 @@ const EmailVerificationComponent = () => {
             <p>Click on the verification link has been sent to johndoe@gmail.com</p>
             <img src={MailBox} alt="" />
             <button className="create-account">GO TO MAIL</button>
-            <p>Didn’t get it? <Link to="" className="login-link">Resend Link</Link></p>
+            <p className="resend">Didn’t get it? <Link to="" className="login-link">Resend Link</Link></p>
         </div>
     )
 }

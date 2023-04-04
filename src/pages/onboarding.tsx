@@ -3,7 +3,7 @@ import OnboardingOne from "../components/onboarding-1/onboarding-1.component";
 
 const Onboarding = () => {
     return(
-        <div className="pages">
+        <div>
             <OnboardingOne />
         </div>
     )

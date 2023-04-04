@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import EmailVerification from "./email-verification";
 import Login from "./login";
 import Onboarding from "./onboarding";
-import Signup from "./onboarding";
+import Signup from "./signup";
 import ResetEmail from "./reset-email";
 import ResetPhonenumber from "./reset-phonenumber";
 
