@@ -7,6 +7,7 @@ import Signup from "./signup";
 import ResetEmail from "./reset-email";
 import ResetPhonenumber from "./reset-phonenumber";
 import OnboardingPage2 from "./onboarding-2";
+import SignupPageTwo from "./signup-2";
 
 const Pages = () => {
     return(
@@ -19,6 +20,7 @@ const Pages = () => {
                 <Route path="/reset-password-email" element={<ResetEmail />}/>
                 <Route path="/reset-password-phonenumber" element={<ResetPhonenumber />}/>
                 <Route path="/onboarding-page-two" element={<OnboardingPage2 />} />
+                <Route path="/signup-two" element={<SignupPageTwo />} />
             </Routes>
         </Router>
     )

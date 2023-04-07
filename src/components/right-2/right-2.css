@@ -4,3 +4,9 @@
 .flex{
     display: flex;
 }
+.right-two button{
+    width: 90%;
+}
+.center{
+    text-align: center;
+}
